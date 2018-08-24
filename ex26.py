@@ -13,7 +13,7 @@ def sort_words(words):
 
 def print_first_word(words):
     """Prints the first word after popping it off."""
-    word = words.poop(0)
+    word = words.pop(0)
     print word
 
 def print_last_word(words):
@@ -73,7 +73,7 @@ def secret_formula(started):
 
 
 start_point = 10000
-beans, jars, crates == secret_formula(start_point)
+beans, jars, crates = secret_formula(start_point)
 
 print "With a starting point of: %d" % start_point
 print "We'd have %d jeans, %d jars, and %d crates." % (beans, jars, crates)
